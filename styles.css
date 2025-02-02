@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: url('https://source.unsplash.com/featured/?kawaii') no-repeat center;
+    background-size: cover;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff9ff3;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.shop {
+    padding: 50px 20px;
+    background: #fff;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #ffdde1;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
